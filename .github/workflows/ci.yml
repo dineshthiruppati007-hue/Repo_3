@@ -6,6 +6,6 @@ on:
 
 jobs:
   call-workflow:
-    uses: dineshthiruppati007-hue/workflow-templates/.github/workflows/build.yml@main
+    uses: dineshthiruppati007-hue/.github/workflows/build.yml@main
     with:
       java-version: "17"
