@@ -1,0 +1,11 @@
+name: Use Shared Workflow
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  call-workflow:
+    uses: dineshthiruppati007-hue/workflow-templates/.github/workflows/build.yml@main
+    with:
+      java-version: "17"
